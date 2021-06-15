@@ -35,6 +35,8 @@
         <module>traffic-common</module>
         <module>traffic-etl</module>
         <module>traffic-flink</module>
+        <module>traffic-kafka-hbase</module>
+
     </modules>
 
 

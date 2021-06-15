@@ -9,10 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>traffic-etl</artifactId>
-   <modules>
-       <module>etl-springboot</module>
-       <module>etl-flink</module>
-   </modules>
+    <artifactId>etl-springboot</artifactId>
+
 
 </project>
