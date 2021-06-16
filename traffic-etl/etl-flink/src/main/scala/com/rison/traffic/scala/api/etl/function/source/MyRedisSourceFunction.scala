@@ -11,7 +11,7 @@ import scala.collection.JavaConversions.asScalaBuffer
  * @author : Rison 2021/6/16 下午3:15
  *
  */
-case class Redis2KafkaSourceFunction() extends RichSourceFunction[String]{
+case class MyRedisSourceFunction() extends RichSourceFunction[String]{
   lazy val jedisClient: Jedis = RedisUtil.getJedisCilent()
   override def run(sourceContext: SourceFunction.SourceContext[String]): Unit = {
     for (i <- 1 to 1337) {
