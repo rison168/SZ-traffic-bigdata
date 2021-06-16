@@ -12,6 +12,11 @@
     <artifactId>traffic-common</artifactId>
     <dependencies>
         <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
@@ -38,9 +43,7 @@
             <version>1.18.12</version>
             <scope>compile</scope>
         </dependency>
-
     </dependencies>
-
     <build>
         <plugins>
             <!-- 该插件用于将Scala代码编译成class文件 -->
